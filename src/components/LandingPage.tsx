@@ -25,8 +25,8 @@ const LandingPage = () => {
       <div className=" h-screen w-screen relative flex justify-center">
         <section className={`w-1/3 h-screen shadow-lg shadow-black`}>
           <header className=" flex items-center justify-center text-center h-1/6">
-            <h1 className="text-3xl font-bold">
-              <a href="/" className="">
+            <h1 className="text-3xl font-bold hover:scale-95 transition-all duration-200">
+              <a href="/" className=" drop-shadow hover:no-underline ">
                 Prudence Marine Services
               </a>
             </h1>
@@ -63,10 +63,10 @@ const LandingPage = () => {
               id="about"
               className=" w-full h-3/4 flex flex-col justify-evenly"
             >
-              <div className="flex items-center">
+              <div className="flex flex-col items-center lg:flex-row">
                 <article
                   id="who _we_are"
-                  className="flex-col hover:scale-105 pt-4 pb-4  mx-10 h-fit hover:bg-blue-950 hover:bg-opacity-75 hover:border-0 hover:rounded-xl group  transition-all duration-500"
+                  className="flex-col hover:scale-105 pt-4 pb-4  my-10 lg:my-0 mx-10 h-fit hover:bg-blue-950 hover:bg-opacity-75 hover:border-0 hover:rounded-xl group  transition-all duration-500"
                 >
                   <h3 className="font-poppins  my-4 text-3xl font-semibold group-hover:underline group-hover:underline-offset-4 text-center transition-all duration-500">
                     Who are we:
@@ -82,7 +82,7 @@ const LandingPage = () => {
 
                 <article
                   id="what_we_do"
-                  className=" flex-col hover:scale-105 pt-4 pb-4 mx-10 h-fit hover:bg-blue-950 hover:bg-opacity-75 hover:border-0  hover:rounded-xl group transition-all duration-500"
+                  className=" flex-col hover:scale-105 pt-4 pb-4 my-10 lg:my-0 mx-10 h-fit hover:bg-blue-950 hover:bg-opacity-75 hover:border-0  hover:rounded-xl group transition-all duration-500"
                 >
                   <h3 className="font-poppins  my-4 text-3xl font-semibold group-hover:underline group-hover:underline-offset-4 text-center transition-all duration-500">
                     What we do:
